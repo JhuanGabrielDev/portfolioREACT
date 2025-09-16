@@ -1,0 +1,88 @@
+/* Arquivos de Variaveis Nativas do CSS  */
+
+:root {
+
+    --sombra: #000000;
+    --cor-menu-header: #000000;
+    --cor-menu-footer: #000000;
+
+    --cor-texto-um: #000000;
+    --cor-texto-dois: #ffffff;
+    --cor-texto-tres: #ff6347;
+
+
+    --font-texto-banner: Montserrat-Light;
+    --font-titulo-principal: Montserrat-SemiBold;
+    --font-sub-titulo: Montserrat-Medium;
+    --font-texto: Poppins-Ligth;
+    --font-size-title: 2.2rem;
+    --font-size-sub-title: 1.9rem;
+    --font-size-texto: 1.9rem;
+
+    /* Variavies de Formataçao do HEADER (TOPO) */
+    --cor-bg-header: #ffffff;
+    --cor-menu-header: #000000;
+    --font-header: Poppins-Ligth;
+    --font-quem-sou: Poppins-Medium;
+    --font-link-linkedin: Poppins-Medium;
+    --font-link-github: Poppins-Medium;
+    --cor-font-menu-hover: #ff3700;
+    --cor-font-menu: #000000;
+
+    /* Variaveis de Formatação -Banner  */
+
+    --cor-bg-banner: #000000;
+    --cor-texto-banner: #ffffff;
+    --cor-menu-mobile: #000000;
+    --cor-barra-menu-mobile: #000000;
+    --cor-texto-menu-mobile: #ffffff;
+    --cor-icon-nome: #ff3700;
+    --cor-icon-nome-hover: #ff6347;
+
+
+    /* Variaveis de Formatação-  Quem Sou! */
+
+    --cor-bg-about: #ff3700;
+    --cor-bg-menu-mobile: #ff3700;
+    --cor-texto-about: #ffffff;
+
+    /* Variaveis de Formatação - Projetos (Portifolio)! */
+
+    --cor-bg-projetos: #000000;
+    --cor-bg-cards: #ffffff;
+    --cor-texto-cards: #000000;
+    --cor-borda-botao: #ff3700;
+    --cor-texto-projetos: #ffffff;
+    --font-texto-card: Poppins-Medium;
+    --font-btn-projetos: Poppins-Regular;
+    --font-sub-title: Montserrat-Light;
+    --font-projetos: Montserrat-Medium;
+
+    /* Variaveis de Formatação - Contato! */
+
+    --cor-bg-contato: #ff3700;
+    --cor-texto-contato: #ffffff;
+    --cor-link-contato: #ffffff;
+    --font-input-contato: Motserrat-Regular;
+    --font-texto-contact: Poppins-Ligth;
+    --font-form-contact: Montserrat-Ligth;
+    --font-link-Whatsapp: Poppins-SemiBold;
+    --cor-bg-btn: #000000;
+    --cor-bg-btn-hover: #076800;
+    --cor-texto-btn: #ffffff;
+
+    /* Variaveis de Formatação do maps*/
+    --font-texto-maps: #ffffff;
+    --font-maps: #000000;
+
+    /* variaveis de Formatação do Whatsapp */
+    --font-texto-whatsapp: #ffffff;
+    --font-whatsapp: #0a7e00;
+
+    /* Variaveis de Formatação - Footer! */
+
+    --cor-bg-footer: #000000;
+    --cor-texto-footer: #ffffff;
+    --font-copy: Poppins-Regular;
+
+}

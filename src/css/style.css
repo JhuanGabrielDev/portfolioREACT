@@ -1,0 +1,469 @@
+@import url(./fonts.css);
+@import url(./mediaQuery.css);
+@import url(./variables.css);
+
+
+/* Formatação por tag html */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: var(--font-header);
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    padding: 0.6rem 0rem;
+}
+
+form {
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+/* Formatação por CLASS */
+
+/* Formatação do Header */
+
+
+.wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.btn-nav {
+    margin: 0rem 0.6rem 0.6rem 0rem;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.btn-nav-topo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.btn-nav-topo:hover {
+    width: 50px;
+    height: 50px;
+    transition: .4s;
+}
+
+.topo {
+    width: 100%;
+    background-color: var(--cor-bg-header)
+}
+
+.topo nav ul {
+    display: flex;
+}
+
+
+.topo nav ul .nav-item a {
+    list-style: none;
+    color: var(--cor-font-menu);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-quem-sou);
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.topo nav ul .nav-item a:hover {
+    color: var(--cor-font-menu-hover);
+}
+
+.img-logotipo {
+    width: 120px;
+}
+
+.container {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-page {
+    padding: 1rem 0.6rem 1rem 0.6rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nome {
+    font-size: 4.2rem;
+    margin: 0px;
+    font-family: var(--font-titulo-principal);
+}
+
+.nome:hover {
+    color: #ff3700;
+    cursor: default;
+}
+
+.funcao {
+    font-size: 1.8rem;
+    margin: 0px;
+    font-family: var(--font-sub-titulo);
+}
+
+.funcao:hover {
+    color: #ff3700;
+    cursor: default;
+}
+
+.descricao {
+    margin: 0px;
+    font-size: 1.3rem;
+    font-family: var(--font-texto);
+}
+
+.descricao:hover {
+    color: #ff3700;
+    cursor: default;
+}
+
+.github {
+    max-width: 90px;
+}
+
+.LinkedIn {
+    max-width: 90px;
+}
+
+.box-habil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.title-about {
+    font-size: 3rem;
+    margin: 0px;
+    font-family: var(--font-titulo-principal);
+}
+
+.box-habil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.habil {
+    padding: 8px;
+    font-size: 0.8rem;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: default;
+}
+
+.habil:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+    border: none;
+}
+
+.jects {
+    font-size: 3rem;
+    margin: 0px;
+    font-family: var(--font-titulo-principal);
+}
+
+.projects {
+    background-color: var(--cor-bg-projetos);
+    color: var(--cor-texto-projetos);
+    padding: 3.2rem 1.2rem;
+    text-align: center;
+}
+
+.text-projects {
+    font-family: var(--font-sub-title);
+}
+
+.card-projects {
+    background-color: var(--cor-bg-cards);
+    color: var(--cor-texto-cards);
+    border-radius: 4px;
+
+}
+
+.img-card {
+    width: 100%;
+    max-width: 500px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.img-github {
+    width: 32px;
+}
+
+.rep-github {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--cor-texto-cards);
+    border: 2px solid var(--cor-borda-botao);
+    border-radius: 4px;
+    padding: 0.2rem 0.1rem;
+    margin: 1.2rem 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: default;
+}
+
+.rep-github:hover {
+    background-color: #fa9200;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+
+.title-card {
+    font-size: 1.4rem;
+    margin: 0px;
+    font-family: var(--font-projetos);
+}
+
+/* Formatação do Contato */
+
+.contact {
+    padding-top: 3.2rem;
+    background-color: var(--cor-bg-contato);
+    color: var(--cor-texto-contato);
+    text-align: center;
+
+}
+
+.google-maps {
+    width: 100vw;
+    /* ocupa toda a largura da tela */
+    margin-left: calc(-50vw + 50%);
+    /* "escapa" do wrap centralizado */
+    background-color: #ffffff;
+}
+
+.google-maps iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+
+/* 
+.info-contact {
+    padding: 1rem;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+} */
+
+
+.list-ct {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1.4rem;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.text1 {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.text2 {
+    font-family: 'Montserrat-SemiBold';
+}
+
+.icon-ct {
+    width: 45px;
+    height: 45px;
+    margin-right: 1.6rem;
+    transition: .4s;
+    background-color: #ffffff;
+    border-radius: 1rem;
+     padding: 10px; 
+}
+
+.icon-ct:hover{
+transform: scale(1.1);
+}
+
+
+
+.boxwhatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0.6rem;
+}
+
+.infowhatsapp {
+    font-size: 1rem;
+    font-style: italic;
+
+}
+
+.link-wht-contato {
+    text-decoration: none;
+    color: var(--font-texto-maps);
+    transition: .8s;
+}
+
+.link-wht-contato:hover {
+    font-weight: bolder;
+    color: var(--font-texto-whatsapp);
+    background-color: var(--font-whatsapp);
+    padding: 0.4rem;
+    border-radius: 4px;
+    transform: scale(1.1);
+
+}
+
+.camp-form {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-family: var(--font-input-contato);
+    margin-bottom: 6px;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+.camp-formMsg {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font-input-contato);
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+.camp-form:focus,
+.camp-formMsg:focus {
+    border: 2px solid #000000;
+}
+
+.btn-enviar {
+    background-color: #002800;
+    color: #ffffff;
+    box-shadow: 2px 2px 6px #000000;
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.align-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-enviar:hover {
+    background-color: #00a300;
+    border: 2px solid #000000;
+}
+
+.btn-reset {
+    background-color: #9e0000;
+    color: #ffffff;
+    box-shadow: 2px 2px 6px #000000;
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-reset:hover {
+    background-color: #000000;
+}
+
+.ul-contact {
+    padding: 0px;
+}
+
+.title-contact {
+    font-size: 4rem;
+    margin: 0px;
+    font-family: var(--font-titulo-principal);
+}
+
+.form-contact {
+    text-align: left;
+
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 5px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #fff5f5;
+    margin-bottom: 3px;
+}
+
+.end-page {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logotipo-copy {
+    width: 45px;
+    height: 45px;
+}
+
+.info-copy {
+    font-size: 0.6rem;
+    border-top: 1px solid;
+}
+
+.icon-img:hover {
+    transform: scale(1.2);
+    transition: .8s;
+}
+
+.title-rs{
+    padding: 1.2rem;
+    text-align: center;
+}
