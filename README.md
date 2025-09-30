@@ -1,17 +1,14 @@
 
-As tecnologias utilizadas foram:
-->HTML 5;
--css 3;
-->JavaScript Nativo;
-->Projeto com Responsividade Nativa (@media screen).
+💼 Portfólio
+Este Portfólio foi desenvolvido com ReactJS, e com responsividade Nativa.
+
+🚀 Funcionalidades
+Componentização.
+Integração com redes sociais (GitHub e LinkedIn).
+Design responsivo e estilização com CSS.
+Navegação fluida entre seções.
+▶️ Como executar
+Clone este repositório:
+npm install início do npm
 
 
-Projeto Front-End.
-
-Projeto Desenvolvido com Responsividade Nativa.
-
-As tecnologias utilizadas foram:
-->HTML 5;
--css 3;
-->JavaScript Nativo;
-->Projeto com Responsividade Nativa (@media screen).
